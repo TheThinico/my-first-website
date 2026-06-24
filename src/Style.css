@@ -1,0 +1,22 @@
+header {
+    background-color: #503636;
+    color: white;
+    padding: 20px;
+    /* O header fica no topo naturalmente */
+}
+main {
+    flex: 1;               /* ESSA É A MÁGICA: faz o conteúdo esticar e empurrar o footer para baixo */
+    padding: 20px;
+}
+body {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna (um abaixo do outro) */
+    min-height: 100vh;     /* Garante que o corpo tenha no mínimo a altura da tela */
+}
+footer {
+    background-color: #291111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    /* O footer fica sempre no rodapé, mesmo com pouco conteúdo no main */
+}

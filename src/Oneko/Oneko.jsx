@@ -21,7 +21,7 @@ function Oneko() {
 
   return (
     <div>
-      <p>O gatinho deve aparecer em breve...</p>
+      <p>Não tem gato, somente o Gnomo Azul ...</p>
     </div>
   );
 }
